@@ -11,7 +11,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import google.generativeai as genai
 
 # Google Gemini API Key
-GOOGLE_API_KEY = "AIzaSyACop6g9yi40GuqD_UoKO1xDEoESofHXak"
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # Configure Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
