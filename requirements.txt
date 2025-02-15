@@ -5,4 +5,4 @@ streamlit-extras
 langchain
 faiss-cpu
 google-generativeai
-langchain-google-generativeai
+langchain-google-genai
