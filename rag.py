@@ -18,7 +18,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 # Sidebar contents
 with st.sidebar:
-    st.title('PaperScribe : RAG based PDF Chat')
+    st.title('RAG based PDF Chat')
     st.markdown('''
     ## About
     This app is an LLM-powered chatbot built using:
@@ -30,12 +30,12 @@ with st.sidebar:
     add_vertical_space(3)
     st.write('Created by Tanishk and Rishav')
     add_vertical_space(2)
-    st.write('© 2024 PaperScribe')
+    st.write('© 2025 @Parasar33')
 
 load_dotenv()
 
 def main():
-    st.header("Chat with PaperScribe")
+    st.header("RAG Based PDF Reader")
     st.subheader("Your AI-Powered PDF Assistant")
 
     # upload a PDF file
